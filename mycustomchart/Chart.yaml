@@ -27,6 +27,8 @@ dependencies:
   - name: mysql
     version: "11.1.9"
     repository: "https://charts.bitnami.com/bitnami"
+    #conditional dependancy from chart.yml
+    condition : mysql.enabled
 
   - name: rabbitmq
     version: "14.6.1"

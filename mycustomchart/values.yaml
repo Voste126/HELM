@@ -105,3 +105,7 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+mysql :
+  enabled : false
+  
